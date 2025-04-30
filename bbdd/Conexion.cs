@@ -14,11 +14,11 @@ namespace HBergasa_ReservasHotel.bbdd
 {
     internal class Conexion
     {
-        public static readonly string url = "Server=145.14.151.1; " +
-        "Database=u812167471_reservas; " +
-        "User=u812167471_reservas; " +
-        "port=3306; " +
-        "password=2025-Reservas; " +
+        public static readonly string url = "Server=000.00.000.0; " +
+        "Database=ejemplo; " +
+        "User=ejemplo; " +
+        "port=0000; " +
+        "password=tupass; " +
         "Convert Zero Datetime=True";
 
         public static bool acceder(string user, string pass)
